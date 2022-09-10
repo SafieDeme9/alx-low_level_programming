@@ -6,7 +6,8 @@
  * Return: 0 if success
  */
 
-int main(void){
+int main(void)
+{
 	int letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
@@ -14,7 +15,7 @@ int main(void){
 	for (letter = 'A'; letter <= 'Z'; letter++)
 		putchar(letter);
 	putchar('\n');
-	return(0);
+	return (0);
 
 }
 
