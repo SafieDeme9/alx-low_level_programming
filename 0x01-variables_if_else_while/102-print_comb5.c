@@ -1,11 +1,14 @@
 #include <stdio.h>
 
 /**
- *
  * main - Print all all possible combinations of two-digit numbers
+ * 
  * using putchar
+ * 
  * Numbers must be separated by ,, followed by space
+ * 
  * Numbers should be printed in ascending order
+ * 
  * Return: always 0 if success
  */
 
