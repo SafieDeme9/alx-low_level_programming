@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * isalpha - checks wether the caracter is alpha or not
+ * _isalpha - checks wether the caracter is alpha or not
+ * @c is the character to test
  * Return: 0 or 1
  */
 
