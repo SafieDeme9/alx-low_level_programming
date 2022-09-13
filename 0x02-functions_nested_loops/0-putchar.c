@@ -3,8 +3,7 @@
 
 /**
  * main - Write a program that prints _putchar, followed by a new line.
- *  
- * Return : 0 if success
+ * Return: 0 if success
  */
 
 int main(void)
@@ -19,6 +18,6 @@ int main(void)
 
 	}
 	_putchar('\n');
-	return(0);
+	return (0);
 
 }
