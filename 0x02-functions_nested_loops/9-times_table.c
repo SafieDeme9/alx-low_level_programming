@@ -12,7 +12,7 @@ void times_tables(void)
 {
 	int row, column, result;
 
-	for (row = 0; row <= 9, row++)
+	for (row = 0; row <= 9; row++)
 	{
 		for (column = 0; column <= 9; column++)
 		{
@@ -20,12 +20,12 @@ void times_tables(void)
 			if (result < 10)
 			{
 				_putchar(' ');
-				_putchar('0' + rep);
+				_putchar('0' + result);
 			}
 			else
 			{
-				_putchar('0' + rep / 10);
-				_putchar('0' + rep % 10);
+				_putchar('0' + result / 10);
+				_putchar('0' + result % 10);
 			}
 
 			if (column < 9)
