@@ -5,12 +5,12 @@
  * Return: 0 if success
  */
 
-int print_times_table(int n)
+void print_times_table(int n)
 {
 	int row, column, result;
 	
 	if (n < 0 || n > 15)
-		return;
+		return ('anything');
 
 	for (row = 0; row <= n; row++)
 	{
