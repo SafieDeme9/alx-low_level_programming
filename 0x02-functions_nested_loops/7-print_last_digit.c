@@ -1,15 +1,15 @@
 #include "main.h"
 
-/** 
+/**
  * print_last_digit - return the last lady
- * @n: le numero a ecriver 
- * Return: 0 pas trop
+ * @n: the number to check
+ * Return: the last digit
  */
 int print_last_digit(int n)
 {
 	int last;
-	
-	if (n > 0)
+
+	if(n > 0)
 	{
 		last = n % 10;
 	}
