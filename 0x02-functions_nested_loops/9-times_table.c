@@ -2,9 +2,6 @@
 
 /**
  * times_table - prints the 9 times table starting with 0
- * @row: the indice of the line
- * @column: indice of the column 
- * @result: the result of the multiplication
  * Return: 0 if success
  */
 
@@ -17,7 +14,11 @@ void times_table(void)
 		for (column = 0; column <= 9; column++)
 		{
 			result = row * column;
-			if (result < 10)
+			if (column == 0)
+			{
+				_putchar('0' + result);
+			}
+			else if (result < 10)
 			{
 				_putchar(' ');
 				_putchar('0' + result);
