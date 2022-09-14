@@ -8,7 +8,7 @@
  * Return: 0 if success
  */
 
-void times_tables(void)
+void times_table(void)
 {
 	int row, column, result;
 
