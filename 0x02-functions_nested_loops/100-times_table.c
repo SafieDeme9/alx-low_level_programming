@@ -11,7 +11,9 @@ void print_times_table(int n)
 	int row, column, result;
 	
 	if (n < 0 || n > 15)
+	{
 		return;
+	}
 
 	for (row = 0; row <= n; row++)
 	{
@@ -37,7 +39,7 @@ void print_times_table(int n)
 			else
 			{
 				_putchar('0' + result / 100);
-				_putchar('0' +(result - 100) / 10);
+				_putchar('0' + (result - 100) / 10);
 				_putchar('0' + result % 10);
 			}
 
