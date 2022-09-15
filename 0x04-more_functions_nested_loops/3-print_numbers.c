@@ -3,13 +3,15 @@
  * print_numbers - print the numbers from 0 to 9
  * Return: 0
  */
-void print_numbers(void)
+
+void print_most_numbers(void)
 {
-	char i;
-	
-	for (i = 0; i <= 9; i++)
+	char i = 0;
+
+	while (i <= 9)
 	{
 		_putchar('0' + i);
+		i++;
 	}
 	_putchar('\n');
 
