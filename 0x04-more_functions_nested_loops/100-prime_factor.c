@@ -9,16 +9,16 @@
 int main(void)
 {
 	long num = 612852475143;
-	long divisor = 2;
-	long larg_prim = 0;
+	long div;
 
-	while (num != 1)
+	for (div = 2; div < num; div++)
 	{
-		if (num % divisor == 0)
+		while (num % div == 0)
 		{
-			num = num / divisor;
-			larg_prim = divisor;
+			num = num / y;
 		}
-		divisor += 1;
 	}
+	printf("%lu", y);
+	putchar('\n');
+	returm (0);
 }
