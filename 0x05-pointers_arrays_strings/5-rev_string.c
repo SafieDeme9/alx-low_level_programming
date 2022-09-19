@@ -11,6 +11,12 @@
  * @b: second pointer
  * Return: void
  */
+/**
+ * swap_int - swap two integers
+ * @a: first pointer
+ * @b: second pointer
+ * Return: void
+ */
 void swap_char(char *a, char *b)
 {
 	char tmp;
