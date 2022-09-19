@@ -1,18 +1,6 @@
 #include "main.h"
 /**
- * rev_string - reverses a string.
- * @s: string pointer
- * Return: void
- */
-
-/**
  * swap_char - swap two characters
- * @a: first pointer
- * @b: second pointer
- * Return: void
- */
-/**
- * swap_int - swap two integers
  * @a: first pointer
  * @b: second pointer
  * Return: void
@@ -25,7 +13,11 @@ void swap_char(char *a, char *b)
 	*a = *b;
 	*b = tmp;
 }
-
+/**
+ * rev_string - reverse a string
+ * @s: string to reverse
+ * Return: void
+ */
 void rev_string(char *s)
 {
 	int i, len;
