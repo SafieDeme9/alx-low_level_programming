@@ -5,6 +5,21 @@
  * Return: void
  */
 
+/**
+ * swap_char - swap two characters
+ * @a: first pointer
+ * @b: second pointer
+ * Return: void
+ */
+void swap_char(char *a, char *b)
+{
+	char tmp;
+
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
+}
+
 void rev_string(char *s)
 {
 	int i, len;
@@ -35,17 +50,3 @@ int _strlen(char *s)
 	return (len);
 }
 
-/**
- * swap_char - swap two characters
- * @a: first pointer
- * @b: second pointer
- * Return: void
- */
-void swap_char(char *a, char *b)
-{
-	char tmp;
-
-	tmp = *a;
-	*a = *b;
-	*b = tmp;
-}
