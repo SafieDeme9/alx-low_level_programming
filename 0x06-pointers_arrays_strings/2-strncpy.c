@@ -4,6 +4,7 @@
  * @src: source
  * @dest: destination
  * @n: integer parameter
+ * Return: dest
  */
 
 char *_strncpy(char *dest, char *src, int n)
