@@ -5,7 +5,7 @@
  * Return: returns a character
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int i = 0;
 
@@ -15,5 +15,5 @@ char *string_toupper(char *)
 			str[i] -= 32;
 	}
 
-	return (str);
+	return (str)i;
 }
