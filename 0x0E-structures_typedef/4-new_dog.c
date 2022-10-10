@@ -47,6 +47,7 @@ int _strlen(char *s)
  * @name: dog's name
  * @age: dog's age
  * @owner: dog's owner
+ * Return: new dog struct
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
