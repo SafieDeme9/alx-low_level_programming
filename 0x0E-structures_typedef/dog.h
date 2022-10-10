@@ -6,10 +6,7 @@
  * @name: The name of the dog.
  * @age: The age of the dog.
  * @owner: The owner of the dog.
- */
-
-/**
-*dog_t - Typedef for struct dog
+ * dog_t - Typedef for struct dog
 */
 typedef struct dog
 {
