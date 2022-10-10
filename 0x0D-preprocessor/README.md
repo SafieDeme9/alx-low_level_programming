@@ -2,7 +2,7 @@
 # 0x0D-preprocesor
 
 ## 0. Object-like macro
-Header file that defines a macro named SIZE as an abbreviation for the token 1024.
+Create a header file that defines a macro named SIZE as an abbreviation for the token 1024.
 ```console
 julien@ubuntu:~/0x0c. macro, structures$ cat 0-main.c
 #include "0-object_like_macro.h"
