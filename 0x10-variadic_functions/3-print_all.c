@@ -52,14 +52,12 @@ void print_string(va_list arg)
 
 	str = va_arg(arg, char *);
 
-	if (str != NULL)
-	{
-		printf("%s", str);
-	}
-	else
+	if (str == NULL)
 	{
 		printf("(nil)");
+		return ;
 	}
+	printf("%s", str);
 }
 /**
  * print_all - prints anything
